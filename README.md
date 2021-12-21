@@ -1,7 +1,7 @@
 ## 设置React环境，Webpack和Babel
-`
+``
  mkdir webpack-react-tutorial && cd webpack-react-tutorial
-`
+``
 
 ## 创建用于保存代码文件夹：
 
