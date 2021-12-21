@@ -3,9 +3,11 @@
 mkdir webpack-react-tutorial && cd webpack-react-tutorial
 ```
 
-## 创建用于保存代码的最小目录结构：
+## 创建用于保存代码文件夹：
 
+```
 mkdir -p src
+```
 
 通过运行以下内容来初始化项目：
 ```
@@ -32,7 +34,6 @@ npm i webpack webpack-cli --save-dev
 npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
 ```
 
- 以上工具的作用是：webpack项目里当 import 一个.jsx文件时，使用 babel-loader 来处理这个文件， babel-loader 使用 @babel/core 来执行转换， 在转换的过程中使用了babel的 @babel/preset-env插件用于把最新的ES转换为ES5，使用 @babel/preset-react把 JSX转换为正常的JavaScript。
 
 在项目根目录创建 .babelrc 文件，该文件的作用是 告诉 babel-core 在执行转换的时候使用如下插件：
 
